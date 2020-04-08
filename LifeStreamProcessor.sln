@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeStreamProcessor", "LifeStreamProcessor.csproj", "{33ABE4EE-F475-4C78-949C-04B1D5AD938C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeStreamProcessor", "LifeStreamProcessor\LifeStreamProcessor.csproj", "{BB5751FE-A58F-4BF7-8462-D243E7CCC4BD}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "InfirienceProcessor", "..\InfirienceProcessor\InfirienceProcessor.pyproj", "{5EA508CA-E6AB-4CE9-B4D1-BC5CCA5C76F0}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "InfirienceProcessor", "InfirienceProcessor\InfirienceProcessor.pyproj", "{5EA508CA-E6AB-4CE9-B4D1-BC5CCA5C76F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{33ABE4EE-F475-4C78-949C-04B1D5AD938C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33ABE4EE-F475-4C78-949C-04B1D5AD938C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33ABE4EE-F475-4C78-949C-04B1D5AD938C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33ABE4EE-F475-4C78-949C-04B1D5AD938C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5751FE-A58F-4BF7-8462-D243E7CCC4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5751FE-A58F-4BF7-8462-D243E7CCC4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5751FE-A58F-4BF7-8462-D243E7CCC4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5751FE-A58F-4BF7-8462-D243E7CCC4BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5EA508CA-E6AB-4CE9-B4D1-BC5CCA5C76F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5EA508CA-E6AB-4CE9-B4D1-BC5CCA5C76F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
