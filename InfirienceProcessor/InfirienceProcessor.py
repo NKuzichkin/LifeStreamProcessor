@@ -11,7 +11,6 @@ if not os.path.exists('upload_image'):
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'upload_image'
 
-tv.init()
 
 @app.route('/', methods=['GET'])
 def home():

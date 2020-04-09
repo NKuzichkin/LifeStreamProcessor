@@ -10,13 +10,12 @@ import time
 import matplotlib
 import matplotlib.pylab as plt
 
-model = {}
 
-def init():
-    torch.set_grad_enabled(False)  
-    plt.rcParams["axes.grid"] = False
-    model = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=True)
-    model = model.eval().cuda()
+
+torch.set_grad_enabled(False)  
+plt.rcParams["axes.grid"] = False
+model = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=True)
+model = model.eval().cuda()
 
 def run(imageFilename):
     image = PIL.Image.open(imageFilename)
