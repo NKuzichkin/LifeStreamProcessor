@@ -10,6 +10,8 @@ import time
 import matplotlib
 import matplotlib.pylab as plt
 
+model = {}
+
 def init():
     torch.set_grad_enabled(False)  
     plt.rcParams["axes.grid"] = False

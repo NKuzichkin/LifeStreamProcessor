@@ -1,0 +1,1 @@
+apt install git && apt-get install -y libsm6 libxext6 libxrender-dev && apt install python && apt install python-pip && git clone https://github.com/porfus/LifeStreamProcessor.git && cd LifeStreamProcessor/InfirienceProcessor && pip install -r requirements.txt
